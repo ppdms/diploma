@@ -1,12 +1,14 @@
-https://www.yme.gr/metafores/adeies-odigisis/theoritiki-exetasi-ypopsifion-odigon-meso-i-y-mstheyo/item/6996-egkatastasi-programmatos-testdrive
+What I did:
+
+Got data from here: https://www.yme.gr/metafores/adeies-odigisis/theoritiki-exetasi-ypopsifion-odigon-meso-i-y-mstheyo/item/6996-egkatastasi-programmatos-testdrive
 
 => cabextract
 
-=> replace exerbase
+=> replace exerbase as described above
 
 => mdb -> json: https://lytrax.io/blog/tools/access-converter
 
-json layout:
+attempt to understand json layout:
 
 [
     { // 0
@@ -142,7 +144,7 @@ json layout:
 ]
 
 So...
-I'm going to convert this into the following, saner format:
+I converted it into the following, saner format:
 
 {
     { // category object
