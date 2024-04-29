@@ -46,7 +46,7 @@ attempt to understand json layout:
         "name":"Kateg",
         "columns":[
             {
-                "name":"KCod", // category code, only important thing here! probably corresponding to the ενότητες [here](https://www.drivepoint.gr/erotiseis/enotita/motosikleta), so I can safely (?) drop the last two (pretty sure the first (motorcycles) is needed).
+                "name":"KCod", // category code, only important thing here! probably corresponding to the ενότητες here: https://www.drivepoint.gr/erotiseis/enotita/motosikleta, so I can safely (?) drop the last two (pretty sure the first (motorcycles) is needed).
                 "type":"BYTE",
                 "size":1
             },
